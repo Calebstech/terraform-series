@@ -46,10 +46,10 @@ variable "instance_type_map" {
 
 ## Step-05: ec2instance.tf
 ```t
-# How to reference List values ?
+# How to reference List values 
 instance_type = var.instance_type_list[1]
 
-# How to reference Map values ?
+# How to reference Map values 
 instance_type = var.instance_type_map["prod"]
 
 # Meta-Argument Count
